@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header details {
+    position: relative;
+}
+
+header details ul {
+    position: absolute;
+    right: 100%;
+    list-style: none;
+    width: max-content;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+header details ul li {
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+header details ul li:hover {
+    background-color: #f0f2fb;
+}
+
+header details summary {
+    list-style: none;
+}
+
+main {
+    background-image: url(images/vegis.jpg);
+}
