@@ -180,3 +180,21 @@
   .item .content details {
     z-index: 100;
   }
+
+  @media (max-width: 820px) {
+    .item:nth-child(odd) details ul {
+        left: unset;
+        bottom: unset;
+        top: -350%;
+        right: 100%;
+      }
+  }
+  
+  @media (max-width: 480px) {
+    .item details ul {
+        left: unset;
+        bottom: unset;
+        top: -350%;
+        right: 100%;
+      }
+  }
