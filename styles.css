@@ -83,7 +83,6 @@
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
     padding: 10px;
     max-width: 300px;
     flex: 1 1 300px;
@@ -123,6 +122,7 @@
   .item details summary {
     list-style: none;
     border: 1px solid #aba7a7;
+    width: max-content;
     padding: 5px 15px;
     border-radius: 10px;
     cursor: pointer;
@@ -134,7 +134,7 @@
   
   .item details ul {
     position: absolute;
-    bottom: 0;
+    bottom: -35%;
     left: 130%;
     background-color: #f5f5f5;
     border: 1px solid #aba7a733;
