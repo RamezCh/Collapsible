@@ -14,52 +14,60 @@
     <title>Collapsible</title>
   </head>
   <body>
+    
     <header>
+
       <figure>
         <img src="images/logo.jpg" alt="logo" />
       </figure>
       <nav>
         <details>
           <summary>
-            <i class="fa-regular fa-user"></i>
+            <i class="fa-regular fa-user" style="font-size: 25px"></i>
           </summary>
           <ul>
             <li>Profile</li>
             <li>
               <details>
                 <summary>Settings</summary>
-                <li>Change Password</li>
-                <li>Change Email</li>
+                <ul>
+                  <li>Change Password</li>
+                  <li>Change Email</li>
+                </ul>
               </details>
             </li>
             <li>Logout</li>
           </ul>
         </details>
       </nav>
+
     </header>
+
     <main>
-      <div class="main-img"></div>
-        <div class="item">
-            <figure>
-                <img src="images/avocado.jpg" alt="avocado" />
-            </figure>
-            <h2>Avocado</h2>
-            <div class="content">
-                <div class="price">3$</div>
-                <div class="directional">
-                    <details>
-                        <summary>
-                            <i class="fa-solid fa-ellipsis-vertical"></i>
-                        </summary>
-                        <ul>
-                            <li><i class="fa-solid fa-cart-shopping"></i>Add to Cart</li>
-                            <li><i class="fa-solid fa-heart"></i>Add to Wishlist</li>
-                            <li><i class="fa-solid fa-share"></i>Share</li>
-                        </ul>
-                    </details>
-                </div>
-            </div>
+
+      <div class="main-img"><h1>Fresh From Farm to Fork</h1></div>
+
+      <div class="item">
+        <figure>
+          <img src="images/avocado.jpg" alt="avocado" />
+        </figure>
+        <h2>Avocado</h2>
+        <div class="content">
+          <div class="price">3$</div>
+          <details>
+            <summary>
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </summary>
+            <ul>
+              <li><i class="fa-solid fa-cart-shopping"></i>Add to Cart</li>
+              <li><i class="fa-solid fa-heart"></i>Add to Wishlist</li>
+              <li><i class="fa-solid fa-share"></i>Share</li>
+            </ul>
+          </details>
         </div>
+      </div>
+
     </main>
+
   </body>
 </html>
