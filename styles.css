@@ -165,13 +165,18 @@
     color: #000;
   }
   
-  .item:nth-child(3n) details ul {
+  .item:nth-child(6) details ul, .item:nth-child(11) details ul {
     left: unset;
     bottom: unset;
-    right: 0;
+    top: -350%;
+    right: 100%;
   }
 
   .item details[open] summary {
     background-color: green;
     color: #fff;
   }  
+
+  .item .content details {
+    z-index: 100;
+  }
