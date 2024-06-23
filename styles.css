@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 20px;
+    padding: 0;
   }
   
   body {
@@ -81,11 +81,12 @@
   .item {
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 8px 25px rgba(0, 0, 0, 0.3);
     padding: 10px;
     max-width: 300px;
     flex: 1 1 300px;
     position: relative;
+    margin: auto;
   }
   
   .item figure {
@@ -96,7 +97,7 @@
   }
   
   .item img {
-    width: 100%;
+    width: 100% - 10px;
     height: 100%;
     object-fit: cover;
   }
